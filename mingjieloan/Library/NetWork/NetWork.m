@@ -27,7 +27,8 @@
         
         
         // 创建请求对象
-        AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+       
+        AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
         // 请求https
         manager.securityPolicy.allowInvalidCertificates = YES;
         // 设置请求格式
@@ -54,10 +55,10 @@
         // 参数2: 拼接的body
         // 参数3: 成功块
         // 参数4: 失败块
-        [manager GET:url_string parameters:dic success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [manager GET:url_string parameters:dic success:^(NSURLSessionDataTask *task, id responseObject) {
             // 转成JSON
             // NSJSONReadingMutableContainers 请求回的数据
-            id result = [NSJSONSerialization JSONObjectWithData:operation.responseObject options:NSJSONReadingMutableContainers error:nil];
+            id result = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
             
             
             block(result);
@@ -67,7 +68,7 @@
             
             
             
-        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        } failure:^(NSURLSessionDataTask *task, NSError *error) {
             
             ////NSLog(@"%@", error);
             
@@ -102,7 +103,7 @@
         
     
         // 管理器 首先需要实例化一个请求管理器AFHTTPRequestOperationManager
-        AFHTTPRequestOperationManager *netManager = [AFHTTPRequestOperationManager manager];
+        AFHTTPSessionManager *netManager = [AFHTTPSessionManager manager];
         netManager.requestSerializer = [AFJSONRequestSerializer serializer];
         [netManager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
         
@@ -120,14 +121,14 @@
         
         
         // 请求数据
-        [netManager POST:url parameters:dic success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [netManager POST:url parameters:dic success:^(NSURLSessionDataTask *task, id responseObject) {
             
             block(responseObject);
             [HUDManager closeHUD];
             
             
             
-        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        } failure:^(NSURLSessionDataTask *task, NSError *error) {
             
             //NSLog(@"%@", error);
             
@@ -213,7 +214,7 @@
     // 判断是否有网
     if ([self LTYisNetworkConnectionAvailable]) {
         // 创建请求对象
-        AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+        AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
         // 请求HTTPS(若不添加, 无法解析HTTPS)
         manager.securityPolicy.allowInvalidCertificates = YES;
         // 设置请求格式
@@ -233,10 +234,10 @@
          * 参数3: 成功块
          * 参数4: 失败块
          */
-        [manager GET:url parameters:dic success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [manager GET:url parameters:dic success:^(NSURLSessionDataTask *task, id responseObject) {
             // 转成JSON
             // operation.responseObject请求回的数据(请求回来的真正二进制文件)
-            id result = [NSJSONSerialization JSONObjectWithData:operation.responseObject options:NSJSONReadingMutableContainers error:nil];
+            id result = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
             [HUDManager closeHUD];
             
             /* 开始缓存 */
@@ -244,7 +245,7 @@
             /* 开始缓存 */
             
             block(result);
-        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        } failure:^(NSURLSessionDataTask *task, NSError *error) {
             // 输出错误信息
             //NSLog(@"%@", error);
         }];
@@ -270,7 +271,7 @@
 + (void)networkPOSTRequestWithURL:(NSString *)url body:(NSString *)body result:(void (^)(id))block
 {
     if ([self LTYisNetworkConnectionAvailable]) {
-        AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+        AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
         manager.securityPolicy.allowInvalidCertificates = YES;
         manager.requestSerializer = [AFHTTPRequestSerializer serializer];
         manager.responseSerializer = [AFHTTPResponseSerializer serializer];
@@ -286,10 +287,10 @@
             [bodyDic setObject:tempArr[1] forKey:tempArr	[0]];
         }
         
-        [manager POST:url parameters:bodyDic success:^(AFHTTPRequestOperation *operation, id responseObject) {
-            id result = [NSJSONSerialization JSONObjectWithData:operation.responseObject options:NSJSONReadingMutableContainers error:nil];
+        [manager POST:url parameters:bodyDic success:^(NSURLSessionDataTask *task, id responseObject) {
+            id result = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
             block(result);
-        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        } failure:^(NSURLSessionDataTask *task, NSError *error) {
             //NSLog(@"%@", error);
         }];
     } else {

@@ -10,6 +10,13 @@
 		047B58E91E038E0F0077CCE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B58E81E038E0F0077CCE5 /* main.m */; };
 		047B58EC1E038E0F0077CCE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B58EB1E038E0F0077CCE5 /* AppDelegate.m */; };
 		047B58F41E038E100077CCE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047B58F31E038E100077CCE5 /* Assets.xcassets */; };
+		047CAD071E078F3100CF0A5B /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CACFA1E078F3100CF0A5B /* TAAbstractDotView.m */; };
+		047CAD081E078F3100CF0A5B /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CACFC1E078F3100CF0A5B /* TAAnimatedDotView.m */; };
+		047CAD091E078F3100CF0A5B /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CACFE1E078F3100CF0A5B /* TADotView.m */; };
+		047CAD0A1E078F3100CF0A5B /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CAD001E078F3100CF0A5B /* TAPageControl.m */; };
+		047CAD0B1E078F3100CF0A5B /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CAD021E078F3100CF0A5B /* SDCollectionViewCell.m */; };
+		047CAD0C1E078F3100CF0A5B /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CAD041E078F3100CF0A5B /* SDCycleScrollView.m */; };
+		047CAD0D1E078F3100CF0A5B /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CAD061E078F3100CF0A5B /* UIView+SDExtension.m */; };
 		04FA7F9C1E03B47B00DD650D /* KKGestureLockPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F841E03B47B00DD650D /* KKGestureLockPreviewView.m */; };
 		04FA7F9D1E03B47B00DD650D /* KKGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F861E03B47B00DD650D /* KKGestureLockView.m */; };
 		04FA7F9E1E03B47B00DD650D /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F891E03B47B00DD650D /* HUDManager.m */; };
@@ -18,7 +25,6 @@
 		04FA7FA11E03B47B00DD650D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F8F1E03B47B00DD650D /* Reachability.m */; };
 		04FA7FA21E03B47B00DD650D /* SDiPhoneVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F921E03B47B00DD650D /* SDiPhoneVersion.m */; };
 		04FA7FA41E03B47B00DD650D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F971E03B47B00DD650D /* UIView+Extension.m */; };
-		04FA7FA51E03B47B00DD650D /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F991E03B47B00DD650D /* XCGLogger.swift */; };
 		90E5B0AC2F6B56D6581D44C9 /* Pods_mingjieloan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F95A08F4AD3B21B5B543D1B /* Pods_mingjieloan.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +36,20 @@
 		047B58F31E038E100077CCE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047B58F81E038E100077CCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047B58FF1E0394300077CCE5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		047CACF91E078F3100CF0A5B /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		047CACFA1E078F3100CF0A5B /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		047CACFB1E078F3100CF0A5B /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		047CACFC1E078F3100CF0A5B /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		047CACFD1E078F3100CF0A5B /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		047CACFE1E078F3100CF0A5B /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		047CACFF1E078F3100CF0A5B /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		047CAD001E078F3100CF0A5B /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		047CAD011E078F3100CF0A5B /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		047CAD021E078F3100CF0A5B /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		047CAD031E078F3100CF0A5B /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		047CAD041E078F3100CF0A5B /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		047CAD051E078F3100CF0A5B /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		047CAD061E078F3100CF0A5B /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
 		04FA7F7E1E03B47A00DD650D /* mingjieloan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mingjieloan-Bridging-Header.h"; sourceTree = "<group>"; };
 		04FA7F831E03B47B00DD650D /* KKGestureLockPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLockPreviewView.h; sourceTree = "<group>"; };
 		04FA7F841E03B47B00DD650D /* KKGestureLockPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureLockPreviewView.m; sourceTree = "<group>"; };
@@ -47,7 +67,6 @@
 		04FA7F921E03B47B00DD650D /* SDiPhoneVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDiPhoneVersion.m; sourceTree = "<group>"; };
 		04FA7F961E03B47B00DD650D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		04FA7F971E03B47B00DD650D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		04FA7F991E03B47B00DD650D /* XCGLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCGLogger.swift; sourceTree = "<group>"; };
 		9F95A08F4AD3B21B5B543D1B /* Pods_mingjieloan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mingjieloan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB9E8E2716268E6D2DA7280 /* Pods-mingjieloan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mingjieloan.release.xcconfig"; path = "Pods/Target Support Files/Pods-mingjieloan/Pods-mingjieloan.release.xcconfig"; sourceTree = "<group>"; };
 		C5A839E6900AC0FDEBA7D314 /* Pods-mingjieloan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mingjieloan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mingjieloan/Pods-mingjieloan.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +129,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		047CACF71E078F3100CF0A5B /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				047CACF81E078F3100CF0A5B /* PageControl */,
+				047CAD011E078F3100CF0A5B /* SDCollectionViewCell.h */,
+				047CAD021E078F3100CF0A5B /* SDCollectionViewCell.m */,
+				047CAD031E078F3100CF0A5B /* SDCycleScrollView.h */,
+				047CAD041E078F3100CF0A5B /* SDCycleScrollView.m */,
+				047CAD051E078F3100CF0A5B /* UIView+SDExtension.h */,
+				047CAD061E078F3100CF0A5B /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		047CACF81E078F3100CF0A5B /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				047CACF91E078F3100CF0A5B /* TAAbstractDotView.h */,
+				047CACFA1E078F3100CF0A5B /* TAAbstractDotView.m */,
+				047CACFB1E078F3100CF0A5B /* TAAnimatedDotView.h */,
+				047CACFC1E078F3100CF0A5B /* TAAnimatedDotView.m */,
+				047CACFD1E078F3100CF0A5B /* TADotView.h */,
+				047CACFE1E078F3100CF0A5B /* TADotView.m */,
+				047CACFF1E078F3100CF0A5B /* TAPageControl.h */,
+				047CAD001E078F3100CF0A5B /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
 		04FA7F791E03B1B700DD650D /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,11 +175,11 @@
 		04FA7F7B1E03B1B700DD650D /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				047CACF71E078F3100CF0A5B /* SDCycleScrollView */,
 				04FA7F821E03B47B00DD650D /* KKGestureLockView */,
 				04FA7F871E03B47B00DD650D /* NetWork */,
 				04FA7F901E03B47B00DD650D /* SDiPhoneVerson */,
 				04FA7F951E03B47B00DD650D /* UIView+Extension */,
-				04FA7F981E03B47B00DD650D /* XCGLogger */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -192,14 +240,6 @@
 				04FA7F971E03B47B00DD650D /* UIView+Extension.m */,
 			);
 			path = "UIView+Extension";
-			sourceTree = "<group>";
-		};
-		04FA7F981E03B47B00DD650D /* XCGLogger */ = {
-			isa = PBXGroup;
-			children = (
-				04FA7F991E03B47B00DD650D /* XCGLogger.swift */,
-			);
-			path = XCGLogger;
 			sourceTree = "<group>";
 		};
 		4AC606CE790FDFDE96AAD8F3 /* Pods */ = {
@@ -342,16 +382,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				047B58EC1E038E0F0077CCE5 /* AppDelegate.m in Sources */,
+				047CAD091E078F3100CF0A5B /* TADotView.m in Sources */,
 				04FA7FA41E03B47B00DD650D /* UIView+Extension.m in Sources */,
 				04FA7FA21E03B47B00DD650D /* SDiPhoneVersion.m in Sources */,
+				047CAD071E078F3100CF0A5B /* TAAbstractDotView.m in Sources */,
 				04FA7F9C1E03B47B00DD650D /* KKGestureLockPreviewView.m in Sources */,
 				04FA7FA11E03B47B00DD650D /* Reachability.m in Sources */,
-				04FA7FA51E03B47B00DD650D /* XCGLogger.swift in Sources */,
+				047CAD0A1E078F3100CF0A5B /* TAPageControl.m in Sources */,
+				047CAD0B1E078F3100CF0A5B /* SDCollectionViewCell.m in Sources */,
 				04FA7F9E1E03B47B00DD650D /* HUDManager.m in Sources */,
 				047B58E91E038E0F0077CCE5 /* main.m in Sources */,
+				047CAD081E078F3100CF0A5B /* TAAnimatedDotView.m in Sources */,
 				04FA7F9D1E03B47B00DD650D /* KKGestureLockView.m in Sources */,
 				04FA7FA01E03B47B00DD650D /* NetWork.m in Sources */,
 				04FA7F9F1E03B47B00DD650D /* MBProgressHUD.m in Sources */,
+				047CAD0D1E078F3100CF0A5B /* UIView+SDExtension.m in Sources */,
+				047CAD0C1E078F3100CF0A5B /* SDCycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +502,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = E56GQQ9W6V;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/mingjieloan/Supporting Files/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/mingjieloan/PrefixHeader.pch";
 				INFOPLIST_FILE = mingjieloan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -476,7 +522,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = E56GQQ9W6V;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/mingjieloan/Supporting Files/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/mingjieloan/PrefixHeader.pch";
 				INFOPLIST_FILE = mingjieloan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
