@@ -10,8 +10,6 @@
 		047B58E91E038E0F0077CCE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B58E81E038E0F0077CCE5 /* main.m */; };
 		047B58EC1E038E0F0077CCE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B58EB1E038E0F0077CCE5 /* AppDelegate.m */; };
 		047B58F41E038E100077CCE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047B58F31E038E100077CCE5 /* Assets.xcassets */; };
-		04FA7F9A1E03B47B00DD650D /* AF+Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F801E03B47B00DD650D /* AF+Date+Extension.swift */; };
-		04FA7F9B1E03B47B00DD650D /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F811E03B47B00DD650D /* JSONHelper.swift */; };
 		04FA7F9C1E03B47B00DD650D /* KKGestureLockPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F841E03B47B00DD650D /* KKGestureLockPreviewView.m */; };
 		04FA7F9D1E03B47B00DD650D /* KKGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F861E03B47B00DD650D /* KKGestureLockView.m */; };
 		04FA7F9E1E03B47B00DD650D /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F891E03B47B00DD650D /* HUDManager.m */; };
@@ -19,7 +17,6 @@
 		04FA7FA01E03B47B00DD650D /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F8D1E03B47B00DD650D /* NetWork.m */; };
 		04FA7FA11E03B47B00DD650D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F8F1E03B47B00DD650D /* Reachability.m */; };
 		04FA7FA21E03B47B00DD650D /* SDiPhoneVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F921E03B47B00DD650D /* SDiPhoneVersion.m */; };
-		04FA7FA31E03B47B00DD650D /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F941E03B47B00DD650D /* StringExtensions.swift */; };
 		04FA7FA41E03B47B00DD650D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F971E03B47B00DD650D /* UIView+Extension.m */; };
 		04FA7FA51E03B47B00DD650D /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F991E03B47B00DD650D /* XCGLogger.swift */; };
 		90E5B0AC2F6B56D6581D44C9 /* Pods_mingjieloan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F95A08F4AD3B21B5B543D1B /* Pods_mingjieloan.framework */; };
@@ -34,8 +31,6 @@
 		047B58F81E038E100077CCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047B58FF1E0394300077CCE5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		04FA7F7E1E03B47A00DD650D /* mingjieloan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mingjieloan-Bridging-Header.h"; sourceTree = "<group>"; };
-		04FA7F801E03B47B00DD650D /* AF+Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AF+Date+Extension.swift"; sourceTree = "<group>"; };
-		04FA7F811E03B47B00DD650D /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
 		04FA7F831E03B47B00DD650D /* KKGestureLockPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLockPreviewView.h; sourceTree = "<group>"; };
 		04FA7F841E03B47B00DD650D /* KKGestureLockPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureLockPreviewView.m; sourceTree = "<group>"; };
 		04FA7F851E03B47B00DD650D /* KKGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLockView.h; sourceTree = "<group>"; };
@@ -50,7 +45,6 @@
 		04FA7F8F1E03B47B00DD650D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		04FA7F911E03B47B00DD650D /* SDiPhoneVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDiPhoneVersion.h; sourceTree = "<group>"; };
 		04FA7F921E03B47B00DD650D /* SDiPhoneVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDiPhoneVersion.m; sourceTree = "<group>"; };
-		04FA7F941E03B47B00DD650D /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		04FA7F961E03B47B00DD650D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		04FA7F971E03B47B00DD650D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		04FA7F991E03B47B00DD650D /* XCGLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCGLogger.swift; sourceTree = "<group>"; };
@@ -133,12 +127,9 @@
 		04FA7F7B1E03B1B700DD650D /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				04FA7F7F1E03B47B00DD650D /* AF+Date+Helper */,
-				04FA7F811E03B47B00DD650D /* JSONHelper.swift */,
 				04FA7F821E03B47B00DD650D /* KKGestureLockView */,
 				04FA7F871E03B47B00DD650D /* NetWork */,
 				04FA7F901E03B47B00DD650D /* SDiPhoneVerson */,
-				04FA7F931E03B47B00DD650D /* Swift-String-Tools */,
 				04FA7F951E03B47B00DD650D /* UIView+Extension */,
 				04FA7F981E03B47B00DD650D /* XCGLogger */,
 			);
@@ -157,14 +148,6 @@
 			children = (
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		04FA7F7F1E03B47B00DD650D /* AF+Date+Helper */ = {
-			isa = PBXGroup;
-			children = (
-				04FA7F801E03B47B00DD650D /* AF+Date+Extension.swift */,
-			);
-			path = "AF+Date+Helper";
 			sourceTree = "<group>";
 		};
 		04FA7F821E03B47B00DD650D /* KKGestureLockView */ = {
@@ -200,14 +183,6 @@
 				04FA7F921E03B47B00DD650D /* SDiPhoneVersion.m */,
 			);
 			path = SDiPhoneVerson;
-			sourceTree = "<group>";
-		};
-		04FA7F931E03B47B00DD650D /* Swift-String-Tools */ = {
-			isa = PBXGroup;
-			children = (
-				04FA7F941E03B47B00DD650D /* StringExtensions.swift */,
-			);
-			path = "Swift-String-Tools";
 			sourceTree = "<group>";
 		};
 		04FA7F951E03B47B00DD650D /* UIView+Extension */ = {
@@ -366,13 +341,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FA7FA31E03B47B00DD650D /* StringExtensions.swift in Sources */,
 				047B58EC1E038E0F0077CCE5 /* AppDelegate.m in Sources */,
 				04FA7FA41E03B47B00DD650D /* UIView+Extension.m in Sources */,
-				04FA7F9B1E03B47B00DD650D /* JSONHelper.swift in Sources */,
 				04FA7FA21E03B47B00DD650D /* SDiPhoneVersion.m in Sources */,
 				04FA7F9C1E03B47B00DD650D /* KKGestureLockPreviewView.m in Sources */,
-				04FA7F9A1E03B47B00DD650D /* AF+Date+Extension.swift in Sources */,
 				04FA7FA11E03B47B00DD650D /* Reachability.m in Sources */,
 				04FA7FA51E03B47B00DD650D /* XCGLogger.swift in Sources */,
 				04FA7F9E1E03B47B00DD650D /* HUDManager.m in Sources */,
