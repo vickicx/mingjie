@@ -17,6 +17,8 @@
 		047CAD0B1E078F3100CF0A5B /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CAD021E078F3100CF0A5B /* SDCollectionViewCell.m */; };
 		047CAD0C1E078F3100CF0A5B /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CAD041E078F3100CF0A5B /* SDCycleScrollView.m */; };
 		047CAD0D1E078F3100CF0A5B /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CAD061E078F3100CF0A5B /* UIView+SDExtension.m */; };
+		047CAD181E07C13100CF0A5B /* XXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CAD171E07C13100CF0A5B /* XXColor.m */; };
+		047CAD211E07CC2000CF0A5B /* VVNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CAD201E07CC2000CF0A5B /* VVNavigationController.m */; };
 		04FA7F9C1E03B47B00DD650D /* KKGestureLockPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F841E03B47B00DD650D /* KKGestureLockPreviewView.m */; };
 		04FA7F9D1E03B47B00DD650D /* KKGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F861E03B47B00DD650D /* KKGestureLockView.m */; };
 		04FA7F9E1E03B47B00DD650D /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA7F891E03B47B00DD650D /* HUDManager.m */; };
@@ -50,6 +52,10 @@
 		047CAD041E078F3100CF0A5B /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
 		047CAD051E078F3100CF0A5B /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
 		047CAD061E078F3100CF0A5B /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		047CAD161E07C13100CF0A5B /* XXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XXColor.h; path = Service/ZZColor/XXColor.h; sourceTree = "<group>"; };
+		047CAD171E07C13100CF0A5B /* XXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XXColor.m; path = Service/ZZColor/XXColor.m; sourceTree = "<group>"; };
+		047CAD1F1E07CC2000CF0A5B /* VVNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVNavigationController.h; path = Nav/VVNavigationController.h; sourceTree = "<group>"; };
+		047CAD201E07CC2000CF0A5B /* VVNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVNavigationController.m; path = Nav/VVNavigationController.m; sourceTree = "<group>"; };
 		04FA7F7E1E03B47A00DD650D /* mingjieloan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mingjieloan-Bridging-Header.h"; sourceTree = "<group>"; };
 		04FA7F831E03B47B00DD650D /* KKGestureLockPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLockPreviewView.h; sourceTree = "<group>"; };
 		04FA7F841E03B47B00DD650D /* KKGestureLockPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureLockPreviewView.m; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 				04FA7F7B1E03B1B700DD650D /* Library */,
 				04FA7F7C1E03B1B700DD650D /* Model */,
 				04FA7F7D1E03B1B700DD650D /* UI */,
+				047CAD0E1E07BA8E00CF0A5B /* Service */,
 				047B58EA1E038E0F0077CCE5 /* AppDelegate.h */,
 				047B58EB1E038E0F0077CCE5 /* AppDelegate.m */,
 				047B58F31E038E100077CCE5 /* Assets.xcassets */,
@@ -158,6 +165,39 @@
 			path = PageControl;
 			sourceTree = "<group>";
 		};
+		047CAD0E1E07BA8E00CF0A5B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				047CAD151E07C0FC00CF0A5B /* ZZColor */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		047CAD151E07C0FC00CF0A5B /* ZZColor */ = {
+			isa = PBXGroup;
+			children = (
+				047CAD161E07C13100CF0A5B /* XXColor.h */,
+				047CAD171E07C13100CF0A5B /* XXColor.m */,
+			);
+			name = ZZColor;
+			sourceTree = "<group>";
+		};
+		047CAD191E07C3FA00CF0A5B /* NoData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NoData;
+			sourceTree = "<group>";
+		};
+		047CAD1E1E07CBBF00CF0A5B /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				047CAD1F1E07CC2000CF0A5B /* VVNavigationController.h */,
+				047CAD201E07CC2000CF0A5B /* VVNavigationController.m */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
 		04FA7F791E03B1B700DD650D /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +234,8 @@
 		04FA7F7D1E03B1B700DD650D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				047CAD1E1E07CBBF00CF0A5B /* Nav */,
+				047CAD191E07C3FA00CF0A5B /* NoData */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -388,6 +430,7 @@
 				047CAD071E078F3100CF0A5B /* TAAbstractDotView.m in Sources */,
 				04FA7F9C1E03B47B00DD650D /* KKGestureLockPreviewView.m in Sources */,
 				04FA7FA11E03B47B00DD650D /* Reachability.m in Sources */,
+				047CAD181E07C13100CF0A5B /* XXColor.m in Sources */,
 				047CAD0A1E078F3100CF0A5B /* TAPageControl.m in Sources */,
 				047CAD0B1E078F3100CF0A5B /* SDCollectionViewCell.m in Sources */,
 				04FA7F9E1E03B47B00DD650D /* HUDManager.m in Sources */,
@@ -398,6 +441,7 @@
 				04FA7F9F1E03B47B00DD650D /* MBProgressHUD.m in Sources */,
 				047CAD0D1E078F3100CF0A5B /* UIView+SDExtension.m in Sources */,
 				047CAD0C1E078F3100CF0A5B /* SDCycleScrollView.m in Sources */,
+				047CAD211E07CC2000CF0A5B /* VVNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
