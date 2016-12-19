@@ -1,0 +1,6 @@
+framework module PICircularProgressView {
+  umbrella header "PICircularProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}

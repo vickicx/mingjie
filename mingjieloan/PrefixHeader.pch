@@ -1,0 +1,101 @@
+//
+//  PrefixHeader.pch
+//  Yilicai
+//
+//  Created by 盐商 on 16/3/31.
+//  Copyright © 2016年 Louding. All rights reserved.
+//
+//  桥接文件
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "XXColor.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+//外网测试地址
+//#define HOSTURL @"http://yanshangkj.f3322.net:5151/mapp"
+//#define ProtocolURL @"http://yanshangkj.f3322.net:5151"
+
+
+//自己的测试地址192.168.1.134
+//#define HOSTURL @"http://192.168.1.151:8080/mapp"
+//#define ProtocolURL @"http://192.168.1.151:8080"
+
+//发布的正式地址
+#define HOSTURL @"http://www.dlmjcf.com/mapp"
+#define ProtocolURL @"http://www.dlmjcf.com"
+
+//#define HOSTURL @"http://www.dlmjcf.com:9080/mapp"
+//#define ProtocolURL @"http://www.dlmjcf.com:9080"
+
+//#define HOSTURL @"http://www.dlmjcf.net:5151/mapp"
+//#define ProtocolURL @"http://www.dlmjcf.net:5151"
+
+
+// MARK: - 接口
+// MARK: - 我的消息
+#define WDXX @"/my/center"
+// MARK: - 我的消息已阅读
+#define WDXXREAD @"/my/center/alread"
+// MARK: - 我的消息月报
+#define WDXXYB @"/my/center/monthly/report"
+
+// MARK: - 会员中心
+#define HYZX @"/member/center"
+// MARK: - 会员生日特权
+#define SRTQ @"/birthday/red"
+// MARK: - 会员积分奖励
+#define JFJL @"/vip"
+
+// MARK: - 交易记录
+#define JYJL @"/my/bill"
+
+// MARK: - 我的积分
+#define WDJF @"/my/integral"
+// MARK: - 积分详情
+#define WDJFDETAIL @"/my/integral/detail"
+
+// MARK: - 动态获取积分的数量
+#define INTEGRALX  @"/point/all"
+
+// MARK: - 积分商城
+#define JFMALL @"/my/integral/mall"
+// MARK: - 确认兑换商品
+#define JFMALLEXCHANGE @"/my/integral/mall/exchange"
+
+// MARK: - 债权转让
+// MARK: - 可转让
+#define KZR @"/claims/transfercan"
+// MARK: - 转让中
+#define ZRZ @"/claims/transfering"
+// MARK: - 已转让
+#define YZR @"/claims/transferalready"
+// MARK: - 申请转让
+#define SQZR @"/claims/transfer/info"
+// MARK: - 发布转让
+#define FBZR @"/claims/transferPublish"
+
+// MARK: - 修改手机号(验证手机号)
+#define YZPHONE @"/my/phone"
+
+// MARK: - 媒体报道
+#define MEDIAREPORTS @"/article/media"
+
+// MARK: - 回款记录
+// MARK: - 回款中
+#define INVEST @"/my/invest"
+// MARK: - 回款中
+#define RETURNING @"/my/order"
+// MARK: - 待确认
+#define CONFIRM @"/my/order/pending"
+// MARK: - 已结清
+#define RETURNED @"/my/order/closed"
+// MARK: - 回款记录详情
+#define RETURNDETAIL @"/my/invest/detail"
+
+#endif /* PrefixHeader_pch */
